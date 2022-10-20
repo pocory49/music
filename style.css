@@ -1,5 +1,21 @@
+
 body {
- color: white;
+  margin-left: 0;
+  margin-right: 0;
+}
+h1 {
+  color: #0066cc;
+  font-size: 2rem;
+  text-align: center;
+  border-top: 10px solid orange;
+  border-bottom: 10px solid orange;
+  margin-top: 100px;
+  padding: 10px;
+}
+.container {
+  text-align: center;
+  margin-top: 150px;
+
 }
 img {
   border-radius: 8px;
@@ -10,13 +26,21 @@ img {
 .card  {
   color: #fff;
   border-radius: 8px;
-  width: 260px;
+  width: 100%;
+  max-width: 260px;
   height: 360px;
   box-shadow:0 20px 35px rgba(0, 0, 0, 0.26);
+  display: inline-block;
+  margin: 10px;
+  transition: 0.3s;
+}
+.card:hover {
+  transform: scale(0.95);
 }
 .text {
-  position: absolute;
-  bottom: 390px;
-  padding: 37px;
+  color: white;
+  position: relative;
+  bottom: 350px;
+  left: 2px;
   text-shadow: 1px 1px 1px #0066cc;
 }
